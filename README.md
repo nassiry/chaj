@@ -1,5 +1,5 @@
 # chaj
-## Is modern browser fast and small with zero dependency date, time converting and formatting from Shamsi/Jalali/Persian to [Gregory](https://en.wikipedia.org/wiki/Gregorian_calendar) and vice versa.
+### Is modern browser fast and small with zero dependency date, time converting and formatting from Shamsi/Jalali/Persian to [Gregory](https://en.wikipedia.org/wiki/Gregorian_calendar) and vice versa.
 The API using modern browser [Intl.DateTimeFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat) object for date and time formatting.
 
 
@@ -7,7 +7,7 @@ The API using modern browser [Intl.DateTimeFormat](https://developer.mozilla.org
 
 Quick Info:
 
-> Shamsi/Jalali/Persian or [Solar Hijri Calendar](https://en.wikipedia.org/wiki/Solar_Hijri_calendar) currently using in Afghanistan, Iran and Tajikistan you can fine more info [Here](https://en.wikipedia.org/wiki/Solar_Hijri_calendar) 
+> Shamsi/Jalali/Persian or [Solar Hijri Calendar](https://en.wikipedia.org/wiki/Solar_Hijri_calendar) currently using in Afghanistan, Iran and Tajikistan you can find more info [Here](https://en.wikipedia.org/wiki/Solar_Hijri_calendar) 
 > the API converting and formatting datetime to [gregory](https://en.wikipedia.org/wiki/Gregorian_calendar) and vice versa. keep reading...
 
 ## Getting Started
@@ -66,16 +66,34 @@ Chaj.format('1401-10-02', {shamsi: true, dateStyle: 'full'}) // Friday, December
   ```
 - Second Param as `object {}` you can pass all [Intl.DateTimeFormat - Options](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat#parameters) at once.
   ```javascript
-  Chaj.format('2022-10-25', {dateStyle: 'full', locale: 'en-US', timeZone: 'Asia/Kabul', calendar: 'persian'})
+  Chaj.format('2022-10-25', {
+    dateStyle: 'full',
+    locale: 'en-US',
+    timeZone: 'Asia/Kabul', 
+    calendar: 'persian'}
+    )
   ```
  - Converting shamsi/jalali/persian date to gregory add `shamsi` as `boolean` ***default is `false`***.
     ```javascript
-    Chaj.format('1401-8-25', {shamsi: true, dateStyle: 'full', locale: 'en-US', timeZone: 'Asia/Kabul', calendar: 'persian'})
+    Chaj.format('1401-8-25', {
+      shamsi: true, 
+      dateStyle: 'full', 
+      locale: 'en-US', 
+      timeZone: 'Asia/Kabul', 
+      calendar: 'persian'}
+      )
     ```
  
  - By default it converting/formatting date with local datetime. you can add `utc` key to option with `boolean` value ***default is false*** for converting/formatting date and time to [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time).
     ```javascript
-    Chaj.format('1401-8-25', {shamsi: true, utc: true, dateStyle: 'full', locale: 'en-US', timeZone: 'Asia/Kabul', calendar: 'persian'})
+    Chaj.format('1401-8-25', {
+      shamsi: true,
+      utc: true,
+      dateStyle: 'full',
+      locale: 'en-US',
+      timeZone: 'Asia/Kabul',
+      calendar: 'persian'}
+      )
     ```
 
 
