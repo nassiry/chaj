@@ -1,0 +1,30 @@
+{
+  "name": "chaj",
+  "version": "1.0.0",
+  "description": "Convert and format shamsi/jalali/persian date to gregory and vice versa.",
+  "main": "chaj.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nassiry/chaj.git"
+  },
+  "keywords": [
+    "convert",
+    "format",
+    "shamsi",
+    "jalali",
+    "persian",
+    "date"
+  ],
+  "author": "A.S Nasseri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nassiry/chaj/issues"
+  },
+  "homepage": "https://github.com/nassiry/chaj#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
