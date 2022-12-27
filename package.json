@@ -1,5 +1,5 @@
 {
-  "name": "chaj",
+  "name": "@nassiry/chaj",
   "version": "1.0.0",
   "description": "Convert and format shamsi/jalali/persian date to gregory and vice versa.",
   "main": "chaj.js",

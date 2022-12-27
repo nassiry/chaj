@@ -18,7 +18,7 @@ in Browser: در بروزر
 <script src="path/to/chaj.js"></script>
 ```
 ### Via npm package manager در Nodejs
-`npm install chaj`
+`npm install @nassiry/chaj`
 ### Usage: - استفاده
 - currently, there is only one public method:
 `
