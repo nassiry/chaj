@@ -33,11 +33,6 @@ By default `Chaj.format()` with zero arguments return current local date & time.
 
 ```javascript
 
-// in nodejs 
-const Chaj = require('@nassiry/chaj');
-
-// in browser you can directly call Chaj.format()
-
 // with no arguments.
 Chaj.format() // current date 0000/00/00
 
