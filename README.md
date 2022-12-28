@@ -1,5 +1,5 @@
 # chaj
-### Is modern browser fast and small with zero dependency date, time converting and formatting from Shamsi/Jalali/Persian to [Gregory](https://en.wikipedia.org/wiki/Gregorian_calendar) and vice versa.
+### Is modern browser fast and small with zero dependency ***native JavaScript*** date, time converting and formatting from Shamsi/Jalali/Persian to [Gregory](https://en.wikipedia.org/wiki/Gregorian_calendar) and vice versa.
 The API using modern browser [Intl.DateTimeFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat) object for date and time formatting.
 
 
