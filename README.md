@@ -1,5 +1,5 @@
 # chaj
-### Is modern browser fast and small with zero dependency ***native JavaScript*** date, time converting and formatting from Shamsi/Jalali/Persian to [Gregory](https://en.wikipedia.org/wiki/Gregorian_calendar) and vice versa.
+### Is modern browser fast and small with zero dependency ***native JavaScript*** datetime converting and formatting from Shamsi/Jalali/Persian to [Gregory](https://en.wikipedia.org/wiki/Gregorian_calendar) and vice versa.
 The API using modern browser [Intl.DateTimeFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat) object for date and time formatting.
 
 
@@ -8,7 +8,7 @@ The API using modern browser [Intl.DateTimeFormat](https://developer.mozilla.org
 Quick Info:
 
 > Shamsi/Jalali/Persian or [Solar Hijri Calendar](https://en.wikipedia.org/wiki/Solar_Hijri_calendar) currently using in Afghanistan, Iran and Tajikistan you can find more info [Here](https://en.wikipedia.org/wiki/Solar_Hijri_calendar) 
-> the API converting and formatting datetime to [gregory](https://en.wikipedia.org/wiki/Gregorian_calendar) and vice versa. keep reading...
+> the API converting and formatting datetime to [gregory](https://en.wikipedia.org/wiki/Gregorian_calendar) and vice versa.
 
 ## Getting Started
 
@@ -20,20 +20,20 @@ in Browser: در بروزر
 ### Via npm package manager در Nodejs
 `npm install @nassiry/chaj`
 ### Usage: - استفاده
-- currently, there is only one public method:
+- Currently, there is only one public method:
 `
   Chaj.format()
   `
 
 
-The method getting tow arguments date as `string` in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format, and second argument as `object` with all available and valid properties of [Intl.DateTimeFormat - Options](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat#parameters) and return converted/formatted date as `string/array`
+The method taking tow paramters date as `string` in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format, and second param as `object` with all available and valid properties of [Intl.DateTimeFormat - Options](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat#parameters) and return converted/formatted date as `string/array`
 
 ### Example: مثالها
-By default `Chaj.format()` with zero arguments return current local date & time.
+By default `Chaj.format()` with zero param return current local date & time.
 
 ```javascript
 
-// with no arguments.
+// with no parameters.
 Chaj.format() // current date 0000/00/00
 
 
@@ -95,7 +95,7 @@ Chaj.format('1401-10-02', {shamsi: true, dateStyle: 'full'}) // Friday, December
 ### Return value.
 By default it return as `string` you can add `toArray` as `boolean` for returning value as array of objects.
 
-### Default Paramters:
+### Default Paramters/Options:
 - Date as `string` current local date & time.
 - Options as `object` 
   ```javascript
