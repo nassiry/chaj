@@ -14,6 +14,9 @@ Quick Info:
 
 ### Installation - فعالسازی
 in Browser: در بروزر
+
+You can [Download](https://github.com/nassiry/chaj/releases/latest) and link to file.
+
 ```html
 <script src="path/to/chaj.js"></script>
 ```
