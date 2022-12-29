@@ -21,7 +21,10 @@ You can [Download](https://github.com/nassiry/chaj/releases/latest) and link to 
 <script src="path/to/chaj.js"></script>
 ```
 ### Via npm package manager در Nodejs
-`npm install @nassiry/chaj`
+```shell
+npm install chajdate
+
+```
 ### Usage: - استفاده
 - Currently, there is only one public method:
 `
@@ -34,7 +37,11 @@ The method taking tow paramters date as `string` in [ISO 8601](https://en.wikipe
 ### Example: مثالها
 By default `Chaj.format()` with zero param return current local date & time.
 
+
 ```javascript
+
+
+const Chaj = require('chajdate');
 
 // with no parameters.
 Chaj.format() // current date 0000/00/00
