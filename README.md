@@ -114,17 +114,17 @@ By default it return as `string` you can add `toArray` as `boolean` for returnin
 ### More Options:
 you can find more formatting information about `Intl.DateTimeFormat - Options` , Thanks to MDN documentation [Here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat#parameters)
 
-## Browser/Nodejs Support
+**Browser/Nodejs Support**
 
 Chrome | Firefox | Safari | Opera | Edge | Nodejs
 --- | --- | --- | --- | --- | --- |
 Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔
 
-### TODO:
+TODO:
 add more public methods.
 
 
-## License
+### License
 
 [MIT](LICENSE)
 
